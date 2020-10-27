@@ -1,0 +1,15 @@
+header{background-color: rgba(226, 226, 213, 0.5);}
+
+#list-cities a {width: 200px;}
+
+
+.list-group a:focus {background-color: #007BFF;}
+
+
+#list-apartments{width: 700px;}
+#list-apartments a{
+    border: 1px solid rgba(187, 184, 184, 0.459);
+    cursor: pointer;
+    text-decoration: none;
+}
+#list-apartments a:hover{background-color: #cee6ff7e;}

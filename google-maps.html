@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/google-maps.css">
+</head>
+
+<body>
+    
+    <header>
+        <h2 class="p-3">Google Maps</h2>
+    </header>
+    <section class="d-flex d-flex-row justify-content-center">
+        <div id="errors"></div>
+        <div>
+            <h5>Cities</h5>
+            <div class="list-group shadow-sm" id="list-cities">
+                <a href="#" class="list-group-item list-group-item-action all-cities" id="all-cities">All</a>
+            </div>
+        </div>
+
+        <div class="d-flex flex-column ml-5 ">
+            <h5>Available Apartments</h5>
+            <div id="list-apartments" class="d-flex flex-column shadow-sm">
+            </div>
+        </div>
+    </section>
+
+    
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/google-maps.js"></script>
+</body>
+
+</html>
